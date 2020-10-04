@@ -1,3 +1,10 @@
 .current {
   color: green;
 }
+.site-title::before {
+  content:url("/assets/images/x6.png");
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  top: 100px;
+}

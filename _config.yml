@@ -2,15 +2,15 @@ theme: jekyll-theme-minimal
 title: "x6"
 description: "where i share"
 collections:
-  authors:
+  creators:
     output: true
-    
+
 defaults:
   - scope:
       path: ""
-      type: "authors"
+      type: "creators"
     values:
-      layout: "author"
+      layout: "creator"
   - scope:
       path: ""
       type: "posts"

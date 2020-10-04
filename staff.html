@@ -5,11 +5,11 @@ title: Staff
 <h1>Staff</h1>
 
 <ul>
-  {% for author in site.authors %}
+  {% for creator in site.creators %}
     <li>
-      <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
-      <h3>{{ author.position }}</h3>
-      <p>{{ author.content | markdownify }}</p>
+      <h2><a href="{{ creator.url }}">{{ creator.name }}</a></h2>
+      <h3>{{ creator.position }}</h3>
+      <p>{{ creator.content | markdownify }}</p>
     </li>
   {% endfor %}
 </ul>

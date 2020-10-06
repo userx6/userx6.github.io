@@ -5,4 +5,4 @@ title: About
 # About page
 
 This page tells you a little bit about me.
-![Eth](/_includes/images/x6.png)
+![Eth](/assets/images/x6.png)

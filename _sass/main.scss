@@ -17,19 +17,19 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Cutive Mono', monospace;
 }
 
-ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
-li {
+nav li {
   list-style-type: none;
   float: left;
 }
 
-li a {
+nav li a {
   display: block;
   color: #fff;
   text-align: center;
@@ -37,10 +37,6 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+nav li a:hover:not(.active) {
   background-color: #000;
-}
-
-.posts {
-  text-align:left;
 }

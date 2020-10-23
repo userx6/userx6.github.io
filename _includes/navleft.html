@@ -1,0 +1,7 @@
+<nav>
+  {% for item in site.data.navleft %}
+    <li class="{% if page.url == item.link %}active{% endif %}">
+      <a href="{{ item.link }}">{{ item.name }}</a>
+    </li>
+  {% endfor %}
+</nav>

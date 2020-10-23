@@ -9,9 +9,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Raleway&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div>{% include navigation.html %}</div>
-    <div>
-    <img src=https://userx6.github.io/assets/images/x6.png alt="x6" width="100px")<br /></div>
+    <div class="topnav">
+      <div class="topnav-centered">
+        <img src=https://userx6.github.io/assets/images/x6.png alt="x6" width="100px">
+      </div>
+      {% include navleft.html %}
+      <div class="topnav-right">
+        {% include navright.html %}
+      </div>
+    </div>
+
     {{ content }}
   </body>
 </html>

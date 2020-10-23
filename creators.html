@@ -6,7 +6,7 @@ title: Creators
 
 <ul>
   {% for creator in site.creators %}
-    <li>
+    <li class="posts">
       <h2><a href="{{ creator.url }}">{{ creator.name }}</a></h2>
       <h3>{{ creator.position }}</h3>
       <p>{{ creator.content | markdownify }}</p>

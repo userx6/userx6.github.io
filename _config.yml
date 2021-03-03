@@ -8,10 +8,6 @@ twitter:
   card: summary
   creator: #yourusername
 author: nd
-  name: #yourusername
-  avatar:
-  email: #youremail
-  url: #yoururl
 permalink: pretty
 
 baseurl: ""

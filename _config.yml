@@ -1,22 +1,63 @@
-theme: jekyll-theme-hacker
-title: "x6"
-description: "where i share"
+site: x6
+url: "https://www.x6x.ca"
+title: x6
+description: The most boring blog out there.
+googlewebfonts: Fira+Code:wght@400;500;700
+twitter:
+  username: #yourusername
+  card: summary
+  creator: #yourusername
+author: nd
+  twitter: #yourusername
+  name: #yourusername
+  avatar:
+  email: #youremail
+  url: #yoururl
+permalink: pretty
+
+baseurl: ""
+
+highlighter: rouge
+
+exclude:
+  - .jekyll-cache
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 collections:
-  creators:
+  pages:
     output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:slug
 
 defaults:
-  - scope:
+  -
+    scope:
       path: ""
-      type: "creators"
     values:
-      layout: "creator"
-  - scope:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
